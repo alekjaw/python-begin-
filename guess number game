@@ -1,0 +1,32 @@
+#START
+import random
+pytanie = input("pomyśl liczbę OD 1 DO 100 i napisz ok  ")
+if pytanie == "ok" or "OK":
+  losowa = random.randrange(1, 101) 
+  pytanie1 = print("czy to",losowa,"?")
+  odpowiedz1 = input("")
+if odpowiedz1 == "tak":
+  print("zgadłem!") #1 część
+else:
+  print("czy jest większa czy mniejsza niż 50?")
+odpowiedz2 = input("")
+
+#WIĘKSZA
+if odpowiedz2 == "większa":
+  losowa2 = random.randrange(51, 101)
+  pytanie3 = print("czy to",losowa2,"?")
+odpowiedz3 = input("")
+if odpowiedz3 == "tak":
+  print("zgadłem!") # 2 część lewa, PYTANIE O ZAKRES 50-100
+else:
+  print("czy to liczba parzysta?")
+  odpowiedz4 = input(" ")
+parzysta = losowa3 %2 == 0 # napisać liczbe parzystą > 50
+print(parzysta)
+if odpowiedz4 == "tak":
+  print(parzysta)
+
+#MNIEJSZA
+if odpowiedz2 == "mniejsza":
+  losowa3 = random.randrange(1-50)
+ 
