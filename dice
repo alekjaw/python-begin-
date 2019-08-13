@@ -1,0 +1,4 @@
+import random
+i = 1
+rzut = random.randrange(1, 7)
+print(rzut)
