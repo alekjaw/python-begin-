@@ -1,0 +1,26 @@
+Zadanie 32 
+
+U¿ywaj¹c pêtli for-if proszê wypisaæ liczby od 1 do 10, nastêpnie tak skonstruowaæ instrukcj¹ if, aby z listy zniknê³y liczby: 9, 8 i 3.
+
+for x in range(1,11):
+  if x in (9,8,3):
+    continue
+  print(x)
+
+ Zadanie 35 
+
+Proszê przy u¿yciu pêtli while oraz drugi raz za pomoc¹ pêtli for wygenerowaæ poni¿szy ci¹g liczb z listy: a = [42, 4, 9, 6, 14, 43]
+
+a = [42, 4, 9, 6, 14, 43]
+while a:
+  print(a)
+  break
+
+Zadanie 37 
+
+Proszê wygenerowaæ ci¹g liczb od 0 do 5 za pomoc¹ pêtli while a potem za pomoc¹ pêtli for.
+
+x =6
+while x > 0:
+  x -= 1
+  print(x)

@@ -1,0 +1,8 @@
+def Wartoœæ_bezwzglêdna(i):
+  if i >=0:
+    return i 
+  else:
+    return -i
+
+i = int(input("podaj liczbê"))
+print("Wartoœæ bezwzglêdna wynosi", Wartoœæ_bezwzglêdna(i))
