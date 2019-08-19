@@ -1,3 +1,6 @@
+http://sigmaquality.pl/python/petle/100-zadan-z-petli-w-python-3-2/
+
+
 Zadanie 32 
 
 U¿ywaj¹c pêtli for-if proszê wypisaæ liczby od 1 do 10, nastêpnie tak skonstruowaæ instrukcj¹ if, aby z listy zniknê³y liczby: 9, 8 i 3.
